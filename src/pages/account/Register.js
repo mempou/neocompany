@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import axios from 'axios';
 import { Styles } from './styles/account.js';
-
+import emailjs from 'emailjs-com';
 
 
 
@@ -13,6 +13,7 @@ function Register() {
     const [loading, setLoading] = useState(false);
     const [response, setResponse] = useState(null);
     const [error, setError] = useState(null);
+    const [isLoading, setIsLoading] = useState(false);
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -35,6 +36,7 @@ function Register() {
 // name === 'message' ? files[0] :
     const formSubmit = async (e) => {
         e.preventDefault();
+        setIsLoading(true); 
 
         const { name, email, selection } = formData;
 
@@ -83,19 +85,15 @@ function Register() {
             }
             console.log('formDataToSendss datas', datas)
             
-            try {
-                const res = await axios.post('https://sendmailer-1.onrender.com/send/mail', datas,
-                    {
-                        headers: {
-                          'Content-Type': 'multipart/form-data',
-                        //  'Authorization': 'Bearer YOUR_ACCESS_TOKEN' 
-                        }
-                      }
-                );
-                console.log('Response:', res.data);
-            } catch (error) {
-                console.error('Error sending mail:', error);
-            }
+            emailjs.send('service_i7wckyn', 'template_xdbfryi', datas, '5N9sygYRRKrGGLWXf')
+      .then((response) => {
+        console.log('email sent succ')
+        setIsLoading(false);
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+        alert('Failed to send email.');
+      });
 
             // emailjs
             // .sendForm('service_g4h6eqn', 'template_zbp196y', data, {
@@ -197,9 +195,10 @@ function Register() {
                                             <label className="mb-1">Votre dossier</label>
                                             <input type="file" className="w-full py-3 pl-4 text-lg font-medium border border-gray-300"   name="message" onChange={handleInputChange} />
                                         </div> 
-                                        <button type="submit" className="button mt-4 bg-[#000000]" disabled={loading}>
-                                            {loading ? 'Sending...' : 'Envoyez'}
+                                        <button type="submit" className="button mt-4 bg-[#000000]" disabled={isLoading}>
+                                            {isLoading ? 'En cours...' : 'Envoyez'}
                                         </button>
+                                        
                                         {response && <p>{response}</p>}
                                         {error && <p>{error}</p>}
                                     </form>
