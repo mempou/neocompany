@@ -67,10 +67,7 @@ const Instructor= () =>  {
                     <section className="instructor-area">
                         
                         <Container>
-                            <div className="sec-title p-5 text-black-50 ">
-                                <h1 className='text-center' >Quelques etudiants former et sorti des ecoles Tunisienne</h1>
-                                <button onClick={formSubmit}>SEND COMMENT</button>  
-                            </div>  
+                             
                                                 
                             <Row>
                                 {
