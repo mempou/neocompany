@@ -1,0 +1,53 @@
+{
+    "eventDataList": [
+        {
+            "id": "1",
+            "eventDate": "25 March",
+            "eventTitle": "2020 admidion fair going on this week",
+            "eventTime": "5:30pm - 7.00pm",
+            "eventLocation": "Newyork,NY.",
+            "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
+            "eventLink": "/event-details"
+        },
+        {
+            "id": "2",
+            "eventDate": "25 March",
+            "eventTitle": "2020 admidion fair going on this week",
+            "eventTime": "5:30pm - 7.00pm",
+            "eventLocation": "Newyork,NY.",
+            "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
+            "eventLink": "/event-details"
+        },
+        {
+            "id": "3",
+            "eventDate": "25 March",
+            "eventTitle": "2020 admidion fair going on this week",
+            "eventTime": "5:30pm - 7.00pm",
+            "eventLocation": "Newyork,NY.",
+            "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
+            "eventLink": "/event-details"
+        }
+    ],
+    "faqDataList": [
+        {
+            "id": "1",
+            "faqTitle": "Qu'est-ce que Neocompany ??",
+            "faqDesc": "Neocompany est une agence d'immigration spécialisée dans l'accompagnement des étudiants subsahariens souhaitant étudier à l'école Esprit en Tunisie. Nous proposons des services d'assistance complets pour faciliter le processus d'admission, de demande de visa et d'installation en Tunisie."
+        },
+        {
+            "id": "2",
+            "faqTitle": "Quels sont les avantages d'étudier à l'école Esprit en Tunisie ?",
+            "faqDesc": "L'école Esprit est réputée pour ses programmes d'études de haute qualité et son environnement d'apprentissage dynamique. Les étudiants bénéficient d'une éducation de classe mondiale, d'une vie étudiante animée et d'un accès à des opportunités de carrière prometteuses."
+        },
+        {
+            "id": "3",
+            "faqTitle": "Comment puis-je contacter Neocompany pour obtenir de l'aide ?",
+            "faqDesc": "Vous pouvez nous contacter en utilisant le formulaire de contact sur notre site web, ou en nous appelant directement au numéro de téléphone indiqué. Notre équipe est disponible pour répondre à vos questions et vous accompagner dans votre projet d'études en Tunisie."
+        },
+        {
+            "id": "3",
+            "faqTitle": "Ou se situe votre Co-Working Space ?",
+            "faqDesc": "A Douala"
+        }
+    ]
+}

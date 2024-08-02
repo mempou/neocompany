@@ -1,0 +1,22 @@
+{
+    "secTitle": "Voyons ce que nos précieux étudiants pensent de nous. Leurs témoignages.",
+    "backgroundImage": "vd-bg.jpg",
+    "dataList": [
+        {
+            "id": "1",
+            "testimonialTitle": "C'est formidable de faire partie de cette communauté.",
+            "testimonialDesc": "Depuis le premier jour, j'ai été accueilli avec chaleur et enthousiasme par des membres passionnés et dévoués. La diversité des expériences et des perspectives au sein de cette communauté crée un environnement dynamique où l'apprentissage et le partage de connaissances sont au cœur de nos interactions.",
+            "authorImg": "banner2.jpg",
+            "authorName": "George",
+            "authorTitle": "Etudiant Esprit Monastir"
+        },
+        {
+            "id": "2",
+            "testimonialTitle": "C'est formidable de faire partie de cette communauté.",
+            "testimonialDesc": "Chaque échange est une opportunité de découvrir de nouvelles idées, de développer des compétences et de collaborer sur des projets innovants. Que ce soit à travers des discussions en ligne, des ateliers pratiques, des événements ou des rencontres en personne, la solidarité et le soutien mutuel sont palpables.",
+            "authorImg": "banner2.jpg",
+            "authorName": "Tom Sarah",
+            "authorTitle": "Etudiant Esprit School of Business"
+        }
+    ]
+}

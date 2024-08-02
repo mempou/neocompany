@@ -1,0 +1,21 @@
+{
+    "secTitle": "Nous sommes une agence professionnelle qui, vous ouvre les portes aux grandes écoles étrangères, vous aide à voyager à l'étranger (études ou affaires), .",
+    "secDesc": "vous propose des formations professionnelles de pointes et qui, vous loue des salles équipées",
+    "dataList": [
+        {
+            "iconTitle": "Best Quality Courses",
+            "iconSubtitle": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam"
+        },
+        {
+            "iconTitle": "Best Quality Courses",
+            "iconSubtitle": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam"
+        },
+        {
+            "iconTitle": "Best Quality Courses",
+            "iconSubtitle": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam"
+        }
+    ],
+    "aboutImageOne": "heroimage1.jpg",
+    "aboutImageTwo": "about-3.jpg",
+    "experianceYear": "15"
+}

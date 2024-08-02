@@ -1,0 +1,25 @@
+[
+    {
+        "id": "1",
+        "imgUrl": "formation.jpg",
+        "authorImg": "author.jpg",
+        "authorName": "John Doe",
+        "authorCourses": "13 Courses",
+        "price": "$20",
+        "courseTitle": "Cours de Langues",
+        "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
+        "courseLink": "/course-details"
+    },
+    {
+        "id": "2",
+        "imgUrl": "formation.jpg",
+        "authorImg": "formation.jpg",
+        "authorName": "Jara Sen",
+        "authorCourses": "21 Courses",
+        "price": "$13",
+        "courseTitle": "Microsoft Excel for Beginner",
+        "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
+        "courseLink": "/course-details"
+    }
+   
+]

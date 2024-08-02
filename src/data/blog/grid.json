@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "postImg": "heroimage5_1920x814.jpg",
+        "authorImg": "author.jpg",
+        "authorName": "Medison Azar",
+        "postLink": "/blog-details",
+        "postDate": "April 23, 2020",
+        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
+        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
+        "authorLink": "/"
+    },
+    {
+        "id": "2",
+        "postImg": "heroimage4_1651x700.jpg",
+        "authorImg": "author.jpg",
+        "authorName": "Medison Azar",
+        "postLink": "/blog-details",
+        "postDate": "April 23, 2020",
+        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
+        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
+        "authorLink": "/"
+    },
+    {
+        "id": "3",
+        "postImg": "heroimage5_1920x814.jpg",
+        "authorImg": "author.jpg",
+        "authorName": "Medison Azar",
+        "postLink": "/blog-details",
+        "postDate": "April 23, 2020",
+        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
+        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
+        "authorLink": "/"
+    },
+    {
+        "id": "4",
+        "postImg": "heroimage5_1920x814.jpg",
+        "authorImg": "author.jpg",
+        "authorName": "Medison Azar",
+        "postLink": "/blog-details",
+        "postDate": "April 23, 2020",
+        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
+        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
+        "authorLink": "/"
+    },
+    {
+        "id": "5",
+        "postImg": "heroimage4_1651x700.jpg",
+        "authorImg": "author.jpg",
+        "authorName": "Medison Azar",
+        "postLink": "/blog-details",
+        "postDate": "April 23, 2020",
+        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
+        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
+        "authorLink": "/"
+    },
+    {
+        "id": "6",
+        "postImg": "heroimage4_1651x700.jpg",
+        "authorImg": "author.jpg",
+        "authorName": "Medison Azar",
+        "postLink": "/blog-details",
+        "postDate": "April 23, 2020",
+        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
+        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
+        "authorLink": "/"
+    }
+]

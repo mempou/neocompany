@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "backgroundImage": "heroimage1.jpg",
+        "uniqClass": "slider-box slider-box1",
+        "title": "Welcome To Neocompany.",
+        "desc": "La Solution pour votre projet d'etude a l'etranger",
+        "btnOneLink": "course-grid",
+        "btnTwoLink": "contact"
+    },
+    {
+        "id": "2",
+        "backgroundImage": "heroimage3.jpg",
+        "uniqClass": "slider-box slider-box2 text-right",
+        "title": "Welcome To Neocompany.",
+        "desc": "Votre partenaire idéal pour étudier à l'étranger.",
+        "btnOneLink": "course-grid",
+        "btnTwoLink": "contact"
+    },
+    {
+        "id": "3",
+        "backgroundImage": "heroimage2.jpg",
+        "uniqClass": "slider-box slider-box2 text-center",
+        "title": "Welcome To Neocompany.",
+        "desc": "La clé de la réussite pour vos études à l'étranger.",
+        "btnOneLink": "course-grid",
+        "btnTwoLink": "contact"
+    }
+]

@@ -1,0 +1,77 @@
+{
+    "secTitle": "Nous faisons ce que nous aimons faire. Trouvez le projet le mieux adapté à vos besoins.",
+    "dataList": [
+        {
+            "id": "1",
+            "targetId": "desi",
+            "imgUrl": "heroimage2.jpg",
+            "authorImg": "author.jpg",
+            "authorName": "John Doe",
+            "authorCourses": "13 Courses",
+            "price": "$20",
+            "courseTitle": "Neo Voyage d’Études",
+            "courseDesc": "NeoCompany vous offre une opportunité unique de poursuivre vos études à l’étranger. Nous vous accompagnons tout au long de votre parcours académique, de la sélection des meilleures universités à l’obtention de votre visa étudiant.",
+            "courseLink": "/course-details",
+            "services": [
+                "Orientation Personnalisée : Conseil et orientation vers les programmes et les universités les mieux adaptés à vos aspirations.",
+                "Gestion administrative : Assistance dans la préparation et le suivi des dossiers de candidature et de visa.",
+                "Préparation au Départ : Séances d’information et ateliers pour vous préparer à votre nouvelle vie à l’étranger.",
+                "Suivi et Accompagnement : Support continu pendant toute la durée de vos études à l’étranger."
+            ]
+        },
+        {
+            "id": "2",
+            "targetId": "deve",
+            "imgUrl": "heroimage1.jpg",
+            "authorImg": "author.jpg",
+            "authorName": "Jara Sen",
+            "authorCourses": "21 Courses",
+            "price": "$13",
+            "courseTitle": "Neo Voyage d’Affaires",
+            "courseDesc": "Pour vos voyages d’affaires, NeoCompany vous propose des solutions sur-mesure pour garantir des déplacements sans stress et parfaitement organisés. Nous prenons en charge tous les aspects logistiques de vos voyages d’affaires.",
+            "courseLink": "/course-details",
+            "services": [
+                "Réservation de Billets : Recherche et réservation des vols les plus adaptés à vos besoins.",
+                "Hébergement : Sélection et réservation d’hôtels de qualité, en fonction de vos préférences.",
+                "Transferts et Transport : Organisation de vos transferts depuis et vers l’aéroport, ainsi que de vos déplacements locaux.",
+                "Visa d’assistance : Accompagnement dans les démarches de demande de visa d’affaires."
+            ]
+        },
+        {
+            "id": "3",
+            "targetId": "seo",
+            "imgUrl": "heroimage3.jpg",
+            "authorImg": "author.jpg",
+            "authorName": "Kim Chang",
+            "authorCourses": "26 Courses",
+            "price": "$19",
+            "courseTitle": "Neo Formation et Cours de Langue",
+            "courseDesc": "NeoCompany propose une gamme complète de formations professionnelles et de cours de langue pour vous aider à atteindre vos objectifs académiques et professionnels. Nos formations sont conçues pour répondre aux besoins du marché du travail et améliorer vos compétences.",
+            "courseLink": "/course-details",
+            "services": [
+                "Formations Professionnelles : Programmes spécialisés dans divers domaines pour améliorer vos compétences et votre employabilité.",
+                "Cours de Langue : Apprenez une nouvelle langue ou perfectionnez vos compétences linguistiques avec nos cours adaptés à tous les niveaux.",
+                "Suivi personnalisé : Un accompagnement individualisé pour vous aider à progresser et à atteindre vos objectifs.",
+                "Certifications: Préparez-vous aux examens de certification reconnus internationalement."
+            ]
+        },
+        {
+            "id": "4",
+            "targetId": "prog",
+            "imgUrl": "heroimage4_1651x700.jpg",
+            "authorImg": "author.jpg",
+            "authorName": "Jim Hunt",
+            "authorCourses": "09 Courses",
+            "price": "$15",
+            "courseTitle": "Néo Coworking",
+            "courseDesc": "Notre espace de coworking est conçu pour les professionnels, les étudiants et les entrepreneurs qui cherchent un environnement propice à la créativité et à la productivité. Profitez de nos installations modernes et de notre communauté dynamique.",
+            "courseLink": "/course-details",
+            "services": [
+                "Espaces de Travail : Des bureaux partagés et privés, équipés de tout le nécessaire pour travailler efficacement.",
+                "Ressources et Équipements : Accès à des équipements de pointe, y compris une connexion Internet rapide, des imprimantes, et des salles de réunion.",
+                "Événements et Ateliers : Participez à des événements de réseautage, des ateliers de développement professionnel et des sessions de formation.",
+                "Communauté et Collaboration : Rejoignez une communauté de professionnels et d’entrepreneurs, favorisant les échanges et les collaborations."
+            ]
+        }
+    ]
+}

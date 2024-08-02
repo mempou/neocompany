@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "personImage": "dg.png",
+        "personName": "Dominique Tawamba",
+        "personTitle": "Conseil D’administration et Directeur Général",
+        "socialLinks": {
+            "facebook": "//www.facebook.com",
+            "twitter": "//www.twitter.com",
+            "linkedin": "//www.linkedin.com",
+            "youtube": "//www.youtube.com"
+        }
+    },
+   
+    {
+        "id": "3",
+        "personImage": "dri.png",
+        "personName": "Arthur Tonkam",
+        "personTitle": "Directeur des Opérations Internationales",
+        "socialLinks": {
+            "facebook": "//www.facebook.com",
+            "twitter": "//www.twitter.com",
+            "linkedin": "//www.linkedin.com",
+            "youtube": "//www.youtube.com"
+        }
+    }
+   
+    
+]

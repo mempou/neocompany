@@ -1,0 +1,28 @@
+[
+    {
+        "id": "1",
+        "faqTitle": "Quelles sont les options de logement disponibles pour les étudiants en Tunisie ?",
+        "faqDesc": "Neocompany peut vous aider à trouver un logement adapté à vos besoins, que ce soit en résidence universitaire, en appartement partagé ou en famille d'accueil. Nous travaillons avec des partenaires locaux pour offrir des solutions de logement confortables et sécurisées."
+    },
+    {
+        "id": "2",
+        "faqTitle": "Combien de temps faut-il pour obtenir une décision concernant une demande de visa ?",
+        "faqDesc": "Le temps de traitement des demandes de visa peut varier en fonction du pays et de la complexité du dossier. En général, il est recommandé de soumettre la demande de visa plusieurs mois avant la date prévue de voyage."
+    },
+    {
+        "id": "3",
+        "faqTitle": "Comment puis-je contacter Neocompany pour obtenir de l'aide ?",
+        "faqDesc": "Vous pouvez nous contacter en utilisant le formulaire de contact sur notre site web, ou en nous appelant directement au numéro de téléphone indiqué. Notre équipe est disponible pour répondre à vos questions et vous accompagner dans votre projet d'études en Tunisie."
+    },
+    {
+        "id": "4",
+        "faqTitle": "Quels sont les avantages d'étudier à l'école Esprit en Tunisie ?",
+        "faqDesc": "L'école Esprit est réputée pour ses programmes d'études de haute qualité et son environnement d'apprentissage dynamique. Les étudiants bénéficient d'une éducation de classe mondiale, d'une vie étudiante animée et d'un accès à des opportunités de carrière prometteuses."
+    },
+    {
+        "id": "5",
+        "faqTitle": "Ou se situe votre Co-Working Space ?",
+        "faqDesc": "A Douala"
+    }
+   
+]
