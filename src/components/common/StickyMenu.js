@@ -11,9 +11,9 @@ function StickyMenu() {
             const stickyMenu = document.querySelector(".sticky-menu");
 
             if (window.scrollY > 160) {
-                stickyMenu?.classList.add("sticky");
+                stickyMenu.classList.add("sticky");
             } else {
-                stickyMenu?.classList.remove("sticky");
+                stickyMenu.classList.remove("sticky");
             }
         });
     });
