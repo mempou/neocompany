@@ -35,12 +35,13 @@ export const Styles = styled.div`
                 position           : absolute;
                 bottom             : -133px;
                 right              : 0;
-                width              : 205px;
+                width              : 100%;
                 height             : 255px;
                 background-size    : cover;
                 background-position: center;
                 background-repeat  : no-repeat;
                 border-radius      : 5px;
+                z-index   :0;
 
                 &::before {
                     position        : absolute;
@@ -48,14 +49,14 @@ export const Styles = styled.div`
                     background-color: rgba(0, 0, 0, 0.2);
                     width           : 100%;
                     height          : 100%;
-                    top             : 0;
+                    top             : 20px;
                     left            : 0;
                     border-radius : 5px;
                 }
 
                 button.play-button {
                     position  : absolute;
-                    z-index   : 10;
+                    z-index   : 0;
                     top       : 50%;
                     left      : 50%;
                     transform : translateX(-50%) translateY(-50%);
@@ -69,7 +70,7 @@ export const Styles = styled.div`
                         position   : relative;
                         font-size  : 40px;
                         color      : ${colors.bg1};
-                        z-index    : 11;
+                        z-index    : 10;
                         padding-top: 2px;
                         margin-left: -2px;
                     }
@@ -92,7 +93,7 @@ export const Styles = styled.div`
                     &:after {
                         content   : "";
                         position  : absolute;
-                        z-index   : 1;
+                        z-index   : 0;
                         left      : 50%;
                         top       : 50%;
                         transform : translateX(-50%) translateY(-50%);
@@ -109,6 +110,7 @@ export const Styles = styled.div`
                             color: ${colors.bg2};
                         }
                     }
+                    
 
                     @keyframes pulse-border {
                         0% {
@@ -128,14 +130,21 @@ export const Styles = styled.div`
                 }
 
                 @media(max-width: 767px) {
-                    position: unset;
+                    position: relative;
                     width: 100%;
                     height: 250px;
                     margin-bottom: 30px;
                 }
             }
-        }
 
+
+        }
+           
+
+        .video-class{
+             width: 100%;
+            height: 250px;
+        }
         .about-content {
             h4.about-title {
                 color        : ${colors.black1};
