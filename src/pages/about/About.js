@@ -32,8 +32,8 @@ class About extends Component {
                     {/* Icon Box Area 
                     <IconBox />*/}
 
-                    {/* Tab Section 
-                    <TabBox />*/}
+                    {/* Tab Section */}
+                    <TabBox />
 
                     {/* Testimonial Slider 
                     <TestimonialSlider />*/}
