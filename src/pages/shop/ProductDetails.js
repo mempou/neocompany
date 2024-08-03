@@ -18,7 +18,7 @@ const ProductDetails = () => {
         const [student, setStudent] = useState({});
         const { id } = useParams(); 
         const fetchCourseById = (id) => {
-          const studentData = Datas?.find(item => item.id === id);
+          const studentData = Datas.find(item => item.id === id);
           setStudent(studentData);
         };
       
