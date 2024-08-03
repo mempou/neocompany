@@ -126,8 +126,8 @@ export const Styles = styled.div`
                 .product-desc {
                     margin-bottom: 20px;
                     p {
-                        font-size: 14px;
-                        color: ${colors.text3};
+                        font-size: 18px;
+                        
                         line-height: 25px;
                     }
                 }
