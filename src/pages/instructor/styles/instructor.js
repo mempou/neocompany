@@ -6,6 +6,10 @@ export const Styles = styled.div`
         
         .instructor-area {
             padding: 70px 0;
+            h3 {
+            padding: 25px;
+            
+            }
             .instructor-item {
                 position     : relative;
                 margin-bottom: 62px;
@@ -25,7 +29,7 @@ export const Styles = styled.div`
                     width     : 80%;
                     z-index   : 1;
                     border-radius : 5px;
-                    padding: 15px 0;
+                    padding: 15px 5px;
 
                     h5 {
                         margin-bottom: 5px;
@@ -39,8 +43,14 @@ export const Styles = styled.div`
                     }
 
                     p {
-                        font-size    : 14px;
+                        font-size    : 15px;
                         color        : ${colors.text3};
+                        font-weight  : 500;
+                        margin-bottom: 5px;
+                    }
+                    h3 {
+                        font-size    : 14px;
+                        color        : ${colors.black1};
                         font-weight  : 500;
                         margin-bottom: 5px;
                     }
