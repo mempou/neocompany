@@ -55,7 +55,7 @@ function App() {
                 <Route path={ "/blog-grid"} component={BlogGrid} />
                 <Route path={ "/blog/postDetail/:id"} component={BlogDetails} />
                 <Route path={ "/products"} component={Product} />
-                <Route path={ "/product-details"} component={ProductDetails} />
+                <Route path={ "/product-details/:id"} component={ProductDetails} />
                 <Route path={ "/cart"} component={Cart} />
             </Switch>
         </Router>
