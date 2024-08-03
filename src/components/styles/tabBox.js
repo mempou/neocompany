@@ -60,7 +60,7 @@ export const Styles = styled.div`
                 }
 
                 p.tab-desc {
-                    font-size    : 15px;
+                    font-size    : 17px;
                     color        : #ffffff;
                     line-height  : 30px;
                     margin-bottom: 25px;
@@ -72,14 +72,14 @@ export const Styles = styled.div`
 
                 ul.check-list {
                     li {
-                        font-size    : 15px;
-                        color        : ${colors.text3};
+                        font-size    : 16px;
+                        color        : #ffffff;
                         margin-bottom: 20px;
                         line-height  : 25px;
 
                         i {
                             float : left;
-                            color : ${colors.green};
+                            color : ${colors.bg1};
                             border: 1px solid ${colors.border3};
                             width : 35px;
                             height: 35px;
