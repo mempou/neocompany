@@ -35,7 +35,7 @@ const AboutUs = () => {
                                     <Modal isOpen={isOpen} onRequestClose={closeModal} contentLabel="Video Modal" className="video-player">
                                         {/* <button onClick={closeModal} className="close-button">X</button> */}
                                         <video controls  width="360" className="styled-video">
-                                            <source src={`${process.env.PUBLIC_URL}/assets/images/top.mp4`} type="video/mp4" />
+                                            <source src={`${process.env.PUBLIC_URL}/assets/images/neoVid.mp4`} type="video/mp4" />
                                             Your browser does not support the video tag.
                                         </video>
                                     </Modal>
