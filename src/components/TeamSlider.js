@@ -7,7 +7,7 @@ import { Styles } from "./styles/teamSlider.js";
 class TeamSlider extends Component {
     render() {
         const settings = {
-            slidesPerView: 4,
+            slidesPerView: 3,
             loop: true,
             speed: 2000,
             autoplay: {
@@ -30,9 +30,9 @@ class TeamSlider extends Component {
                 768: {
                     slidesPerView: 3
                 },
-                992: {
-                    slidesPerView: 4
-                }
+                // 992: {
+                //     slidesPerView: 4
+                // }
             }
         };
 
