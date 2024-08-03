@@ -62,7 +62,7 @@ class Header extends Component {
                                         </div> */}
                                         <div className="box-content">
                                             <p>Demande d'informations</p>
-                                            <span>contact@neocompany.com</span>
+                                            <span>contact@neocompany.org</span>
                                         </div>
                                     </div>
                                     <div className="apply-btn">
