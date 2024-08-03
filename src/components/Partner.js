@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 class Partner extends Component {
     render() {
         const settings = {
-            slidesPerView: 4,
+            slidesPerView: 2,
             loop: true,
             speed: 1000,
             autoplay: {
@@ -28,12 +28,12 @@ class Partner extends Component {
                 576: {
                     slidesPerView: 2
                 },
-                768: {
-                    slidesPerView: 3
-                },
-                992: {
-                    slidesPerView: 4
-                }
+                // 768: {
+                //     slidesPerView: 3
+                //  },
+                // 992: {
+                //     slidesPerView: 4
+                // }
             }
         };
 
