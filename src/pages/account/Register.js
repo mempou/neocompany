@@ -85,15 +85,45 @@ function Register() {
             }
             console.log('formDataToSendss datas', datas)
             
-            emailjs.send('service_i7wckyn', 'template_xdbfryi', datas, '5N9sygYRRKrGGLWXf')
-      .then((response) => {
-        console.log('email sent succ')
-        setIsLoading(false);
-      })
-      .catch((error) => {
-        console.error('Error sending email:', error);
-        alert('Failed to send email.');
-      });
+    //         emailjs.send('service_i7wckyn', 'template_xdbfryi', datas, '5N9sygYRRKrGGLWXf')
+    //   .then((response) => {
+    //     console.log('email sent succ')
+    //     setIsLoading(false);
+    //   })
+    //   .catch((error) => {
+    //     console.error('Error sending email:', error);
+    //     alert('Failed to send email.');
+    //   });
+
+
+      const userInfo = `\n\n\n\n<h3 class=\"wp-block-heading\"> Nom: ${formData.name}<\/h3>\n\n\n\n  \n\n\n\n<h3 class=\"wp-block-heading\">Email : ${formData.email}<\/h3>\n\n\n\n  \n\n\n\n  \n\n\n\n<h3 class=\"wp-block-heading\">Message : ${formData.message}<\/h3>\n\n\n\n`
+            const data = {
+                name: formData.name,
+                email: formData.email,
+                subject: formData.subject,
+                message: userInfo,
+            };
+
+            try {
+                console.log('form data', data)
+                setLoading(true)
+                const response = await axios.post('https://www.admin.neocompany.org/wp-json/custom/v1/submit-form', data);
+                setIsLoading(false);
+                console.log('form data response', response)
+                setResponse(response.data);
+                setFormData({
+                    name: '',
+                    email: '',
+                    subject: '',
+                    message: ''
+                })
+                
+                setError(null);
+            } catch (error) {
+                setIsLoading(false);
+                setResponse(null);
+                setError('Error submitting form');
+            }
 
             // emailjs
             // .sendForm('service_g4h6eqn', 'template_zbp196y', data, {
@@ -160,7 +190,7 @@ function Register() {
                             <Col md="12">
                                 <div className="registration-box">
                                     <div className="registration-title text-center">
-                                        <h3>Deposez vos dossier</h3>
+                                        <h3>Deposez vos candidature</h3>
                                     </div>
                                     <form id="form_registration" className="form" onSubmit={formSubmit}>
                                         <p className="form-control">
@@ -176,9 +206,9 @@ function Register() {
                                         <div className="form-control my-3">
                                             <label className="mb-1 text-gray-600">Selectionner le service voulu</label>
                                             <select
-                                                id="selection"
-                                                name="selection"
-                                                value={formData.selection}
+                                                id="subject"
+                                                name="subject"
+                                                value={formData.subject}
                                                 onChange={handleInputChange}
                                                 className="border rounded text-lg font-medium px-3 py-1 focus:outline-none focus:ring-1 focus:ring-blue-500 block w-full"
                                             >
@@ -191,11 +221,18 @@ function Register() {
                                             </select>
                                             <span className="registration_input-msg"></span>
                                         </div>
-                                         <div className="mt-2">
+                                        
+                                                    <p className="form-cotrol  mt-8 ">
+                                                       <textarea name="message" id="form-cotrol" className='w-full' placeholder="Enter Message" value={formData.message} onChange={handleInputChange}></textarea>
+                                                        
+                                                    </p>
+                                                
+                                        
+                                         {/* <div className="mt-2">
                                             <label className="mb-1">Votre dossier</label>
                                             <input type="file" className="w-full py-3 pl-4 text-lg font-medium border border-gray-300"   name="message" onChange={handleInputChange} />
-                                        </div> 
-                                        <button type="submit" className="button mt-4 bg-[#000000]" disabled={isLoading}>
+                                        </div>  */}
+                                        <button type="submit" className="button mt-8 bg-[#000000]" disabled={isLoading}>
                                             {isLoading ? 'En cours...' : 'Envoyez'}
                                         </button>
                                         

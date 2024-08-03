@@ -408,6 +408,9 @@ export const Styles = styled.div`
                             visibility: visible;
                         }
                     }
+                        .form-cotrol{
+                            margin-top: 35px;
+                        }
 
                     button {
                         font-size  : 16px;
@@ -435,6 +438,12 @@ export const Styles = styled.div`
                         }
                     }
                 }
+                    .form-cotrol{
+                            margin-top: 35px;
+                            padding: 15px 10px;
+                            width : 100%;
+                            height : 100px;
+                        }
 
                 .have_account-btn {
                     p {
