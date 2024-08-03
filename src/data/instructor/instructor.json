@@ -4,6 +4,8 @@
         "personImage": "dg.png",
         "personName": "Dominique Tawamba",
         "personTitle": "Conseil D’administration et Directeur Général",
+        "niveau": "ancien élève au Collège Saint-Benoit & étudiant en 5e Année Génie Civil",
+        "comment": "their comments",
         "socialLinks": {
             "facebook": "//www.facebook.com",
             "twitter": "//www.twitter.com",
@@ -16,6 +18,64 @@
         "id": "3",
         "personImage": "dri.png",
         "personName": "Arthur Tonkam",
+        "personTitle": "Directeur des Opérations Internationales",
+        "niveau": "ancien élève au Collège Saint-Benoit & étudiant en 5e Année Génie Civil",
+        "comment": "their comments",
+        "socialLinks": {
+            "facebook": "//www.facebook.com",
+            "twitter": "//www.twitter.com",
+            "linkedin": "//www.linkedin.com",
+            "youtube": "//www.youtube.com"
+        }
+    },
+    {
+        "id": "4",
+        "personImage": "yann.jpg",
+        "personName": "Yann ABEGA",
+        "niveau": "ancien élève au Collège Saint-Benoit & étudiant en 5e Année Génie Civil",
+        "comment": "ESPRIT m’a offert bien plus qu’une éducation. Les activités parascolaires et les événements culturels ont enrichi mon expérience.",
+        "personTitle": "Directeur des Opérations Internationales",
+        "socialLinks": {
+            "facebook": "//www.facebook.com",
+            "twitter": "//www.twitter.com",
+            "linkedin": "//www.linkedin.com",
+            "youtube": "//www.youtube.com"
+        }
+    },
+    {
+        "id": "25",
+        "personImage": "ange.jpg",
+        "personName": "Ange NYANKAM",
+        "niveau": "ancienne élève au Collège JEAN TABI & étudiante en 2e année électromécanique",
+        "comment": "ESPRIT a favorisé ma croissance personnelle grâce à ses installations modernes et ses programmes de mentorat exceptionnels comme le centre de carrière.",
+        "personTitle": "Directeur des Opérations Internationales",
+        "socialLinks": {
+            "facebook": "//www.facebook.com",
+            "twitter": "//www.twitter.com",
+            "linkedin": "//www.linkedin.com",
+            "youtube": "//www.youtube.com"
+        }
+    },
+    {
+        "id": "5",
+        "personImage": "nebot.jpg",
+        "personName": "Christian NEBOT",
+        "niveau": "ancien élève au Collège AMASIA & étudiant en 4e Année IA",
+        "comment": "À ESPRIT, la filière informatique est géniale ! Avec nos accréditations internationales, on sait qu’on bénéficie d’une formation de haut niveau, reconnue partout dans le monde.",
+        "personTitle": "Directeur des Opérations Internationales",
+        "socialLinks": {
+            "facebook": "//www.facebook.com",
+            "twitter": "//www.twitter.com",
+            "linkedin": "//www.linkedin.com",
+            "youtube": "//www.youtube.com"
+        }
+    },
+    {
+        "id": "6",
+        "personImage": "blandine.jpg",
+        "personName": "Blandine MENDOUGA",
+        "niveau": " ancienne élève au Collège F.X VOGT & étudiante en 4e année Génie Civil",
+        "comment": "Choisir ESPRIT a nourri ma passion pour l’ingénierie grâce à son ambiance collaborative et sa méthode d’apprentissage innovante.",
         "personTitle": "Directeur des Opérations Internationales",
         "socialLinks": {
             "facebook": "//www.facebook.com",
