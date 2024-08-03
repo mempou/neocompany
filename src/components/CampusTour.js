@@ -23,12 +23,12 @@ const CampusTour = () => {
                                 <div className="tour-box">
                                     <ModalImage small={process.env.PUBLIC_URL + "/assets/images/image2.jpg"} large={process.env.PUBLIC_URL + "/assets/images/image2.jpg"} alt="" />
                                 </div>
-                                <div className="tour-box">
-                                    <ModalImage small={process.env.PUBLIC_URL + "/assets/images/image2.jpg"} large={process.env.PUBLIC_URL + "/assets/images/image2.jpg"} alt="" />
+                                 <div className="tour-box">
+                                    <ModalImage small={process.env.PUBLIC_URL + "/assets/images/gal4.jpg"} large={process.env.PUBLIC_URL + "/assets/images/gal4.jpg"} alt="" />
                                 </div>
-                                <div className="tour-box">
+                                {/*<div className="tour-box">
                                     <ModalImage small={process.env.PUBLIC_URL + "/assets/images/image8.jpg"} large={process.env.PUBLIC_URL + "/assets/images/image8.jpg"} alt="" />
-                                </div>
+                                </div> */}
                             </Col>
                             <Col lg="4" md="6">
                                 <Row>
@@ -36,12 +36,12 @@ const CampusTour = () => {
                                         <div className="tour-box">
                                             <ModalImage small={process.env.PUBLIC_URL + "/assets/images/image4.jpg"} large={process.env.PUBLIC_URL + "/assets/images/image4.jpg"} alt="" />
                                         </div>
-                                        <div className="tour-box">
+                                        {/* <div className="tour-box">
                                             <ModalImage small={process.env.PUBLIC_URL + "/assets/images/gal8.jpg"} large={process.env.PUBLIC_URL + "/assets/images/gal8.jpg"} alt="" />
                                         </div>
                                         <div className="tour-box">
                                             <ModalImage small={process.env.PUBLIC_URL + "/assets/images/gal2.jpg"} large={process.env.PUBLIC_URL + "/assets/images/gal2.jpg"} alt="" />
-                                        </div>
+                                        </div> */}
                                     </Col>
                                     <Col lg="6" md="6">
                                         <div className="tour-box">
@@ -52,10 +52,10 @@ const CampusTour = () => {
                                         </div>
                                         {/* <div className="tour-box">
                                             <ModalImage small={process.env.PUBLIC_URL + "/assets/images/gal4.jpg"} large={process.env.PUBLIC_URL + "/assets/images/gal4.jpg"} alt="" />
-                                        </div> */}
+                                        </div>
                                         <div className="tour-box">
                                             <ModalImage small={process.env.PUBLIC_URL + "/assets/images/gal5.jpg"} large={process.env.PUBLIC_URL + "/assets/images/gal5.jpg"} alt="" />
-                                        </div>
+                                        </div> */}
                                     </Col>
                                     <Col lg="12">
                                         <div className="tour-box">
@@ -76,12 +76,12 @@ const CampusTour = () => {
                                 <div className="tour-box">
                                     <ModalImage small={process.env.PUBLIC_URL + "/assets/images/heroimage5_1920x814.jpg"} large={process.env.PUBLIC_URL + "/assets/images/heroimage5_1920x814.jpg"} alt="" />
                                 </div>
-                                <div className="tour-box">
+                                {/* <div className="tour-box">
                                     <ModalImage small={process.env.PUBLIC_URL + "/assets/images/gal9.jpg"} large={process.env.PUBLIC_URL + "/assets/images/gal9.jpg"} alt="" />
                                 </div>
                                 <div className="tour-box">
                                     <ModalImage small={process.env.PUBLIC_URL + "/assets/images/gal12.jpg"} large={process.env.PUBLIC_URL + "/assets/images/gal12.jpg"} alt="" />
-                                </div>
+                                </div> */}
                                
                             </Col>
                             
