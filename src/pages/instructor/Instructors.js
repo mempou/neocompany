@@ -67,7 +67,7 @@ const Instructor= () =>  {
                     <section className="instructor-area">
                         
                         <Container>
-                            <h3 className='text-center' >quelques uns des etudiants des anciens etudiants</h3>
+                            <h3 className='text-center' >Quelques-uns des anciens étudiants</h3>
                              
                                                 
                             <Row>
