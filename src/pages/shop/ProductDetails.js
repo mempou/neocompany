@@ -35,7 +35,7 @@ const ProductDetails = () => {
                     <HeaderTwo /> */}
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="students Details" />
+                    <BreadcrumbBox title={student?.personName} />
 
                     {/* Product Details */}
                     <section className="product-details-area">

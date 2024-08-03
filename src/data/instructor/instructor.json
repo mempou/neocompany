@@ -1,36 +1,10 @@
 [
-    {
-        "id": "1",
-        "personImage": "dg.png",
-        "personName": "Dominique Tawamba",
-        "personTitle": "Conseil D’administration et Directeur Général",
-        "niveau": "ancien élève au Collège Saint-Benoit & étudiant en 5e Année Génie Civil",
-        "comment": "their comments",
-        "socialLinks": {
-            "facebook": "//www.facebook.com",
-            "twitter": "//www.twitter.com",
-            "linkedin": "//www.linkedin.com",
-            "youtube": "//www.youtube.com"
-        }
-    },
+    
+   
    
     {
-        "id": "3",
-        "personImage": "dri.png",
-        "personName": "Arthur Tonkam",
-        "personTitle": "Directeur des Opérations Internationales",
-        "niveau": "ancien élève au Collège Saint-Benoit & étudiant en 5e Année Génie Civil",
-        "comment": "their comments",
-        "socialLinks": {
-            "facebook": "//www.facebook.com",
-            "twitter": "//www.twitter.com",
-            "linkedin": "//www.linkedin.com",
-            "youtube": "//www.youtube.com"
-        }
-    },
-    {
         "id": "4",
-        "personImage": "yann.jpg",
+        "personImage": "yann1.jpg",
         "personName": "Yann ABEGA",
         "niveau": "ancien élève au Collège Saint-Benoit & étudiant en 5e Année Génie Civil",
         "comment": "ESPRIT m’a offert bien plus qu’une éducation. Les activités parascolaires et les événements culturels ont enrichi mon expérience.",

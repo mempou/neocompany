@@ -2,6 +2,20 @@
     "secTitle": "Une équipe dynamique et experimenté dedié a la planification , a l'organisation et a la gestion des differrentes activités de l'agance . Un mélange de sourire, de passion, et d'expertise pour vous servir..",
     "dataList": [
         {
+            "id": "56",
+            "personImage": "yann1.jpg",
+            "personName": "Yann Abega",
+            "personTitle": "Responsable Marketing",
+            "niveau": "ancien élève au Collège Saint-Benoit & étudiant en 5e Année Génie Civil",
+            "comment": "their comments",
+            "socialLinks": {
+                "facebook": "//www.facebook.com",
+                "twitter": "//www.twitter.com",
+                "linkedin": "//www.linkedin.com",
+                "youtube": "//www.youtube.com"
+            }
+        },
+        {
             "id": "1",
             "personImage": "dg.png",
             "personName": "Dominique Tawamba",

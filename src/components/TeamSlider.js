@@ -9,9 +9,9 @@ class TeamSlider extends Component {
         const settings = {
             slidesPerView: 4,
             loop: true,
-            speed: 1000,
+            speed: 2000,
             autoplay: {
-                delay: 3000,
+                delay: 2000,
                 disableOnInteraction: false
             },
             spaceBetween: 30,
