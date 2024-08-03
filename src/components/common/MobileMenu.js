@@ -149,20 +149,31 @@ function MobileMenu() {
                             </ul>
                         </div> */}
                     </div>
-                    <div className="mb-menu-item">
+                    {/* <div className="mb-menu-item">
                         <button className="mb-menu-button">
                         <li><Link to={process.env.PUBLIC_URL + "/instructor"}>Team</Link></li>
                         </button>
-                        {/* <div className="mb-menu-content">
+                        <div className="mb-menu-content">
                             <ul className="list-unstyled">
                                 <li><Link to={process.env.PUBLIC_URL + "/instructor"}>Team</Link></li>
                                 {/* <li><Link to={process.env.PUBLIC_URL + "/instructor-details"}>Team</Link></li> 
+                            </ul>
+                        </div> 
+                    </div>*/}
+                    <div className="mb-menu-item">
+                        <button className="mb-menu-button">
+                        <li><Link to={process.env.PUBLIC_URL + "/events"}>Actualites</Link></li>
+                        </button>
+                         {/* <div className="mb-menu-content">
+                            <ul className="list-unstyled">
+                                <li><Link to={process.env.PUBLIC_URL + "/events"}>Events</Link></li>
+                               <li><Link to={process.env.PUBLIC_URL + "/event-details"}>Event Details</Link></li>
                             </ul>
                         </div> */}
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button">
-                        <li><Link to={process.env.PUBLIC_URL + "/events"}>Actualites</Link></li>
+                        <li><Link to={ "/students"}>Etudiants</Link></li>
                         </button>
                          {/* <div className="mb-menu-content">
                             <ul className="list-unstyled">
