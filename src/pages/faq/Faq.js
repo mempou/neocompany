@@ -26,11 +26,11 @@ class Faq extends Component {
                                 <Col md="12">
                                     <Tab.Container defaultActiveKey="general">
                                         <Nav className="justify-content-center">
-                                            <Nav.Item><Nav.Link eventKey="general">General </Nav.Link></Nav.Item>
+                                            <Nav.Item><Nav.Link eventKey="general">Questions </Nav.Link></Nav.Item>
                                             {/* <Nav.Item><Nav.Link eventKey="author">Author</Nav.Link></Nav.Item>
-                                            <Nav.Item><Nav.Link eventKey="buyer">Buyer</Nav.Link></Nav.Item> */}
+                                            <Nav.Item><Nav.Link eventKey="buyer">Buyer</Nav.Link></Nav.Item> 
                                             <Nav.Item><Nav.Link eventKey="price">Pricing</Nav.Link></Nav.Item>
-                                            <Nav.Item><Nav.Link eventKey="payment">Payment</Nav.Link></Nav.Item>
+                                            <Nav.Item><Nav.Link eventKey="payment">Payment</Nav.Link></Nav.Item>*/}
                                         </Nav>
                                         <Tab.Content>
                                             <Tab.Pane eventKey="general">
