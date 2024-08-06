@@ -46,8 +46,8 @@ const ProductDetails = () => {
                 <div className="product-slider">
                   <div className="slider-item">
                     <img
-                      src={`/assets/images/${student?.personImage}`}
-                      alt=""
+                      src={`/assets/images/${student.personImage}`}
+                      alt="img"
                       className="img-fluid"
                     />
                   </div>
