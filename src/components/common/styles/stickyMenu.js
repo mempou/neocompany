@@ -36,7 +36,7 @@ export const Styles = styled.div`
                         text-transform: uppercase;
                         cursor: pointer;
                         font-weight   : 500;
-                        padding       : 10px 10px 20px;
+                        padding       : 10px 10px 10px;
 
                         i {
                             font-size: 12px;
@@ -147,7 +147,7 @@ export const Styles = styled.div`
             }
 
             .apply-btn {
-                margin-left: 70px;
+                margin-left: 40px;
                 margin-top : -1px;
 
                 a {
@@ -155,22 +155,22 @@ export const Styles = styled.div`
                     color         : #ffffff;
                     background    : ${colors.bg1};
                     display       : inline-block;
-                    width         : 110px;
+                    width         : 80px;
                     height        : 40px;
                     text-align    : center;
                     text-transform: uppercase;
-                    font-weight   : 500;
-                    padding       : 11px;
+                    font-weight   : 400;
+                    padding       : 8px;
                     border-radius : 0 5px 5px 0;
                     position: relative;
 
                     i {
                         position : absolute;
                         font-size: 20px;
-                        left     : -40px;
+                        left     : -30px;
                         top      : 0;
                         padding  : 10px;
-                        width    : 40px;
+                        width    : 30px;
                         height   : 100%;
                         border-radius : 5px 0 0 5px;
                         background-color: ${colors.bg1};

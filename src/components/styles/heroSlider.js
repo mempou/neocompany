@@ -5,7 +5,7 @@ export const Styles = styled.div`
     .hero-slider-area {
         .swiper-container {
             position: relative;
-
+             z-index : 0;
             .swiper-wrapper {
                 .swiper-slide.slider-item {
                     position: relative;
@@ -16,6 +16,7 @@ export const Styles = styled.div`
                         overflow: hidden;
                         position: relative;
                         height  : 700px;
+                         z-index : 0;
 
                         img.slider-image {
                             width     : auto;
@@ -40,7 +41,7 @@ export const Styles = styled.div`
                         position: absolute;
                         top     : 0;
                         left    : 0;
-                        z-index : 9999;
+                        z-index : 0;
 
                         .slider-tablecell {
                             display       : table-cell;

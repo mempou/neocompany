@@ -41,7 +41,9 @@ export const Styles = styled.div`
                 background-position: center;
                 background-repeat  : no-repeat;
                 border-radius      : 5px;
-                z-index   :0;
+                z-index: 0;
+
+               
 
                 &::before {
                     position        : absolute;

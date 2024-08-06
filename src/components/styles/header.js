@@ -236,7 +236,7 @@ export const Styles = styled.div`
                         border-left-color  : transparent;
                         top                : -20px;
                         left               : 0;
-                        z-index            : 1;
+                        
                     }
 
                     &:after {
@@ -250,7 +250,7 @@ export const Styles = styled.div`
                         border-left-color  : transparent;
                         bottom             : -20px;
                         left               : 0;
-                        z-index            : 1;
+                        
                     }
 
                     @media(max-width: 991px) {
